@@ -1,15 +1,56 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Studio</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+head
+  title 41studio | Ruby on Rails Development Company in Indonesia
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  = favicon_link_tag asset_path('Logo-Square.jpg')
+  = csrf_meta_tags
+  = csp_meta_tag
 
-  <body>
-    <%= yield %>
-  </body>
-</html>
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+  body
+    .navbar.navbar-default.navbar-fixed-top
+      = image_tag "Logo-Square.jpg",class: 'Logo-Square'
+      hr
+      div.container
+        div.navbar-header
+          button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand href="#"
+        div#navbar.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li.active
+              a href="#"
+                ' Home
+            li
+              a href="#about"
+                ' Services
+            li
+              a href="#contact"
+                ' Portofolios
+            li
+              a href="#contact"
+                ' Jobs
+            li
+              a href="#contact"
+                ' About Us
+            li
+              a href="#contact"
+                ' Contact
+            li
+              a href="#contact"
+                ' Blog
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    = yield
