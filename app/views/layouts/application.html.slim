@@ -8,49 +8,79 @@ head
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
   = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
 
-  body
-    .navbar.navbar-default.navbar-fixed-top
-      = image_tag "Logo-Square.jpg",class: 'Logo-Square'
-      hr
-      div.container
-        div.navbar-header
-          button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
-            span.sr-only Toggle navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          a.navbar-brand href="#"
-        div#navbar.navbar-collapse.collapse
-          ul.nav.navbar-nav
-            li.active
-              a href="#"
-                ' Home
-            li
-              a href="#about"
-                ' Services
-            li
-              a href="#contact"
-                ' Portofolios
-            li
-              a href="#contact"
-                ' Jobs
-            li
-              a href="#contact"
-                ' About Us
-            li
-              a href="#contact"
-                ' Contact
-            li
-              a href="#contact"
-                ' Blog
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    = yield
+body
+  .navbar.navbar-default.navbar-fixed-top
+    = image_tag "Logo-Square.jpg",class: 'Logo-Square'
+    hr
+    div.container
+      div.navbar-header
+        button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"
+      div#navbar.navbar-collapse.collapse
+        ul.nav.navbar-nav
+          li.active
+            a href="#"
+              ' Home
+          li
+            a href="#about"
+              ' Services
+          li
+            a href="#contact"
+              ' Portofolios
+          li
+            a href="#contact"
+              ' Jobs
+          li
+            a href="#contact"
+              ' About Us
+          li
+            a href="#contact"
+              ' Contact
+          li
+            a href="#contact"
+              ' Blog
+  br
+  br
+  br
+  br
+  br
+  br
+  br
+  br
+  br
+  br
+  = yield
+
+  br
+  br
+
+
+footer.bg-primary.ft
+  div.container-fluid
+    span.text-white © Copyright 2018 41Studio All Right Reserved
+
+/ footer.page-footer.font-small.bg-primary.pt-4
+/   div.container-fluid.text-center.text-md-left
+/     div.row
+/       div.col-md-6.mt-md-0.mt-3
+/         h5.text-uppercase Footer Content
+/           p Here you can use rows and columns here to organize your footer content.
+/         hr.clearfix.w-100.d-md-none.pb-3">
+/           div.col-md-3 mb-md-0 mb-3
+/             h5.text-uppercase Links
+/               ul.list-unstyled
+/                 li
+/                   a href="#!" Link 1
+/         div.col-md-3.mb-md-0.mb-3
+/           h5.text-uppercase Links
+/             ul.list-unstyled
+/               li
+/                 a href="#!" Link 1
+/         div.footer-copyright.text-center.py-3 © 2018 Copyright:
+/           a href="https://mdbootstrap.com/bootstrap-tutorial/" MDBootstrap.com
+
+
