@@ -15,3 +15,7 @@
  *= require bootstrap
  */
 
+.row1 {
+  margin-right: -1px;
+  margin-left: -1px;
+}
