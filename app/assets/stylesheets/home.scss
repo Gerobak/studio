@@ -46,3 +46,33 @@
 .btn-outline {
     background-color: transparent;
 }
+
+
+section {
+  padding: 60px 0;
+
+  .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+}
+
+.navbar-yellow{
+  background-color: #eea236;
+  margin-top: 100px;
+}
+
+.nav-font{
+  color: white;
+}
+
+.nav-li{
+  padding-left: 140px;
+
+  a :hover{
+    color:silver;
+    text-decoration: none;
+  }
+}
