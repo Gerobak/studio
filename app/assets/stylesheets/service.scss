@@ -2,11 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 $blue: #42a5f4;
 $green: #66bb6a;
 $orange: #f6a628;
 $purple: #7e57c2;
 $krem: #beb0a9;
+$red: #e35b4a;
+
 
 .head {
   width: 100%;
@@ -48,39 +51,101 @@ $krem: #beb0a9;
   width: 100%;
 }
 
-.head1{
+.head1.do{
   font-size:3vw;font-family:Nunito;
   margin: 10px;
+  border-bottom: 3px $red solid;
+  width: 18%;
+  transition: 0.5s;
+}
+.head1.do:hover, .head1.do:focus, .head1.do:active{
+  border-bottom: 3px $red solid;
+  width: 25%;
+
 }
 
-.head1.front:hover, .head1.front:focus, .head1.front:active{
+.head1.front{
+  font-size:3vw;font-family:Nunito;
+  margin: 10px;
   border-bottom: 3px $blue solid;
   width: 70%;
+  transition: 0.5s;
+}
+.head1.front:hover, .head1.front:focus, .head1.front:active{
+  border-bottom: 3px $blue solid;
+  width: 80%;
 }
 
-.head1.mobile:hover, .head1.mobile:focus, .head1.mobile:active{
+.head1.mobile{
+  font-size:3vw;font-family:Nunito;
+  margin: 10px;
   border-bottom: 3px $green solid;
   width: 90%;
+  transition: 0.5s;
+}
+.head1.mobile:hover, .head1.mobile:focus, .head1.mobile:active{
+  border-bottom: 3px $green solid;
+  width: 95%;
 }
 
+.head1.desktop{
+  font-size:3vw;font-family:Nunito;
+  margin: 10px;
+  border-bottom: 3px $orange solid;
+  width: 60%;
+  transition: 0.5s;
+}
 .head1.desktop:hover, .head1.desktop:focus, .head1.desktop:active{
   border-bottom: 3px $orange solid;
-  width: 70%;
+  width: 65%;
 }
 
+.head1.back{
+  font-size:3vw;font-family:Nunito;
+  margin: 10px;
+  border-bottom: 3px $purple solid;
+  width: 90%;
+  transition: 0.5s;
+}
 .head1.back:hover, .head1.back:focus, .head1.back:active{
   border-bottom: 3px $purple solid;
   width: 100%;
 }
 
-.head1.based:hover, .head1.based:focus, .head1.based:active{
+.head1.based{
+  font-size:3vw;font-family:Nunito;
+  margin: 10px;
   border-bottom: 3px $purple solid;
   width: 20%;
+  transition: 0.5s;
+}
+.head1.based:hover, .head1.based:focus, .head1.based:active{
+  border-bottom: 3px $purple solid;
+  width: 30%;
 }
 
-.head1.tech:hover, .head1.based:focus, .head1.based:active{
+.head1.tech{
+  font-size:3vw;font-family:Nunito;
+  margin: 10px;
   border-bottom: 3px $green solid;
   width: 20%;
+  transition: 0.5s;
+}
+.head1.tech:hover, .head1.tech:focus, .head1.tech:active{
+  border-bottom: 3px $green solid;
+  width: 30%;
+}
+
+.head1.hire{
+  font-size:3vw;font-family:Nunito;
+  margin: 10px;
+  border-bottom: 3px $purple solid;
+  width: 30%;
+  transition: 0.5s;
+}
+.head1.hire:hover, .head1.hire:focus, .head1.hire:active{
+  border-bottom: 3px $purple solid;
+  width: 40%;
 }
 
 .head2{
@@ -98,6 +163,7 @@ $krem: #beb0a9;
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 
 .btn1:hover, .btn1:focus, .btn1:active{
@@ -118,6 +184,7 @@ $krem: #beb0a9;
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 
 .btn2:hover, .btn2:focus, .btn2:active{

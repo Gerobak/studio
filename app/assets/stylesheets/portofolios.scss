@@ -1,0 +1,180 @@
+// Place all the styles related to the portofolios controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Place all the styles related to the service controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+$blue: #42a5f4;
+$green: #66bb6a;
+$orange: #f6a628;
+$purple: #7e57c2;
+$krem: #beb0a9;
+$red: #e35b4a;
+$gray: #878787;
+
+
+
+
+.imgup{
+  background:linear-gradient(0deg,rgba(black,0.3),rgba(black,0.3)),url(Background.jpg);
+  background-size:cover;
+  width: 100%;
+}
+
+.imgdown{
+  background:linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url(Background.jpg);
+  background-size:cover;
+  width: 100%;
+}
+
+.head2{
+
+  h1{
+    text-align: center;
+    font-family:Nunito;
+    color:white;
+    font-size:3vw;
+    padding: 10%;
+  }
+
+  h2{
+    text-align: center;
+    font-family:Nunito;
+    color:white;
+    font-size:1vw;
+  }
+}
+
+
+.body{
+  margin: auto;
+}
+
+.textservice{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.img-rounded{
+  width: 100%;
+  opacity: 1;
+}
+
+.img-circle{
+  width: 10%;
+  background-color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-heading{
+  width: 100%;
+}
+
+.head1{
+  font-size:3vw;font-family:Nunito;
+  margin: 10px;
+}
+
+.head1.purple:hover, .head1.purple:focus, .head1.purple:active{
+  border-bottom: 3px $purple solid;
+  width: 55%;
+}
+
+.head1.orange:hover, .head1.orange:focus, .head1.orange:active{
+  border-bottom: 3px $orange solid;
+  width: 20%;
+}
+
+.head2{
+  font-size:1vw;font-family:Nunito;
+}
+
+.btn3{
+  width: 16%;
+  height: 10%;
+  background-color: white;
+  border: 1px $gray solid;
+  color: $gray;
+  font-family: Nunito;
+  margin: 10px;
+  border-radius: 40%;
+  transition: 0.5s;
+}
+
+.btn3:hover, .btn3:focus, .btn3:active{
+  color: $green;
+  background-color: #fff;
+  transition: 0.5s;
+  border: 1px $green solid;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.btn4{
+  width: 16%;
+  height: 10%;
+  background-color: white;
+  border: 1px $purple solid;
+  color: $purple;
+  font-family: Nunito;
+  margin: 10px;
+  border-radius: 40%;
+  transition: 0.5s;
+}
+
+.btn5{
+  width: 10%;
+  height: 10%;
+  background-color: transparent;
+  border: 1px #fff solid;
+  color: #fff;
+  font-family: Nunito;
+  margin: 10px;
+  border-radius: 40%;
+  transition: 0.5s;
+}
+
+.btn5:hover, .btn4:focus, .btn4:active{
+  color: black;
+  background-color: #fff;
+  opacity: 0.5;
+  transition: 0.5s;
+  border: 1px #fff solid;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.btn4:hover, .btn4:focus, .btn4:active{
+  color: #fff;
+  background-color: $purple;
+  transition: 0.5s;
+  border: 1px $purple solid;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+
+
