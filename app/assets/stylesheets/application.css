@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require bootstrap
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
@@ -62,6 +63,9 @@
 .btn-danger.outline {
     color: #d9534f;
 }
+.btn-success.green {
+    color: green;
+}
 .btn-primary.outline:hover,
 .btn-success.outline:hover,
 .btn-info.outline:hover,
@@ -90,3 +94,33 @@
    padding: 0 !important;
    margin: 0 !important;
 }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.btn-purple {
+  color: #D030F0;
+  background-color: #FFFFFF;
+  border-color: #CE28F7;
+}
+
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  color: white;
+  background-color: #B44EC4;
+  border-color: #CE28F7;
+}
+
+.back-to-top {
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    border-radius: 50%;
+}
+

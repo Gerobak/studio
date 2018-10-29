@@ -65,3 +65,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "slim-rails"
 gem 'bootstrap3-rails'
 gem 'jquery-rails', '~> 4.0'
+gem "font-awesome-rails"
