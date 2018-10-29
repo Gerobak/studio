@@ -2,7 +2,7 @@
 body
   div.container
     div.row
-      div.col-md-12.cont.bg
+      div.col-md-12.cont.bg.nopadding
         div.col-md-6.text-center.text-home
           h2 Ruby On Rails Development Company in Indonesia
           br
@@ -16,9 +16,25 @@ body
 
           = link_to "OUR SERVICE",root_path,class: 'btn btn-default outline serv-btn'
 
-        div.col-md-6.text-center
-          = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
-            div.ideas ideas
+        div.col-md-6.text-center.nopadding
+          div#myCarousel.carousel.slide data-ride="carousel"
+            ol.carousel-indicators
+              li.active data-target="#myCarousel" data-slide-to="0"
+              li data-target="#myCarousel" data-slide-to="1"
+              li data-target="#myCarousel" data-slide-to="2"
+            div.carousel-inner
+              div.item.active
+                = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+              div.item
+                = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+              div.item
+                = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+            / a.left.carousel-control" href="#myCarousel" data-slide="prev"
+            /   span.glyphicon.glyphicon-chevron-left"
+            /   span.sr-only" Previous
+            / a.right.carousel-control" href="#myCarousel" data-slide="next"
+            /   span.glyphicon.glyphicon-chevron-right
+            /   span.sr-only" Next
     br
     br
     br
@@ -57,3 +73,14 @@ body
             a.nav-font href="#ui"
               ' UI/UX Design
 
+    div.col-md-offset-3.col-md-6.bussines-proc
+      h2 Business Process
+      hr
+      br
+        p In order to assist and serve your needs in custom software development with rails we offer two
+          types of business models which could be options for you depend on the project scale and or its
+          budget. Find out more about our business model here :
+
+
+/ = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+/   div.ideas ideas

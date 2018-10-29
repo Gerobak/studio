@@ -24,7 +24,6 @@
   .img-home{
     opacity: 0.6;
 
-
       .ideas{
         text-align: center;
       }
@@ -61,7 +60,7 @@ section {
 
 .navbar-yellow{
   background-color: #eea236;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .nav-font{
@@ -76,3 +75,22 @@ section {
     text-decoration: none;
   }
 }
+
+h2{
+  text-align: center;
+}
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid blue;
+    margin: 1em 0;
+    padding: 0;
+    width: 50%;
+    margin-left: 135px;
+}
+
+p{
+    text-align: center;
+  }
