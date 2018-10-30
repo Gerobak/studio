@@ -14,4 +14,30 @@
 //= require activestorage
 //= require turbolinks
 //= require bootstrap
+<<<<<<< HEAD
+=======
+//= require jquery3
+>>>>>>> a88b845505c0728c4ce61a6bd8a03565c216ccd3
 //= require_tree .
+
+
+$(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+
+        $('#back-to-top').tooltip('show');
+
+});
