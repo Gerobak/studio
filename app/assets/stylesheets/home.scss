@@ -84,17 +84,6 @@ h2{
   text-align: center;
 }
 
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #6eb5ff;
-    margin: 1em 0;
-    padding: 0;
-    width: 35%;
-    margin-left: 175px;
-}
-
 .img-testimonie{
   height: 200px;
 }
@@ -112,8 +101,26 @@ h2{
   color: #f95858;
 }
 
-.buproc-border{
-  border-bottom: 1px #6eb5ff solid;
-  padding-bottom: 15px;
-  width: 50%;
+.line-blue{
+  background-color: #6eb5ff;
+  width: 200px;
+  height: 2px;
+}
+
+.line-green{
+  background-color: #1dbf1d;
+  width: 250px;
+  height: 2px;
+}
+
+.line-yellow{
+  background-color: #ff9e15;
+  width: 250px;
+  height: 2px;
+}
+
+.line-red{
+  background-color: #d9534f;
+  width: 150px;
+  height: 2px;
 }
