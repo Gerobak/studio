@@ -1,3 +1,8 @@
+// Place all the styles related to the jobs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
 // Place all the styles related to the portofolios controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
@@ -20,19 +25,13 @@ $white: #fff;
 
 
 
-.imgupportofolio{
-  background:linear-gradient(0deg,rgba(blue,0.3),rgba(black,0.3)),url(Background.jpg);
+.imgupjob{
+  background:linear-gradient(0deg,rgba(blue,0.3),rgba(black,0.3)),url(screen-1839500.jpg);
   background-size:cover;
   width: 100%;
 }
 
-.imgdownportofolio{
-  background:linear-gradient(0deg,rgba(blue,0.3),rgba(blue,0.3)),url(Backgrounddown.jpeg);
-  background-size:cover;
-  width: 100%;
-}
-
-.head2{
+.head3{
 
   h1{
     text-align: center;
@@ -164,81 +163,6 @@ $white: #fff;
   transition: 0.5s;
 }
 
-.head2{
+.head3{
   font-size:1vw;font-family:Nunito;
 }
-
-.btn3{
-  width: 16%;
-  height: 10%;
-  background-color: white;
-  border: 1px $gray solid;
-  color: $gray;
-  font-family: Nunito;
-  margin: 10px;
-  border-radius: 40%;
-  transition: 0.5s;
-}
-
-.btn3:hover, .btn3:focus, .btn3:active{
-  color: $green;
-  background-color: #fff;
-  transition: 0.5s;
-  border: 1px $green solid;
-  border-radius: 50%;
-  transition: 1s;
-}
-
-.btn4{
-  width: 16%;
-  height: 10%;
-  background-color: white;
-  border: 1px $purple solid;
-  color: $purple;
-  font-family: Nunito;
-  margin: 10px;
-  border-radius: 40%;
-  transition: 0.5s;
-}
-.btn4:hover, .btn4:focus, .btn4:active{
-  color: #fff;
-  background-color: $purple;
-  transition: 0.5s;
-  border: 1px $purple solid;
-  border-radius: 50%;
-}
-
-.btn5{
-  width: 10%;
-  height: 10%;
-  background-color: transparent;
-  border: 1px #fff solid;
-  color: #fff;
-  font-family: Nunito;
-  margin: 10px;
-  border-radius: 40%;
-  transition: 0.5s;
-}
-.btn5:hover, .btn4:focus, .btn4:active{
-  color: black;
-  background-color: #fff;
-  opacity: 0.3;
-  transition: 0.5s;
-  border: 1px #fff solid;
-  border-radius: 50%;
-  transition: 0.5s;
-}
-
-
-#exTab1 .tab-content {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
-}
-
-#exTab1 .nav-pills > li > a {
-  border-radius: 0;
-}
-
-
-
