@@ -14,10 +14,8 @@
 //= require activestorage
 //= require turbolinks
 //= require bootstrap
-<<<<<<< HEAD
-=======
+
 //= require jquery3
->>>>>>> a88b845505c0728c4ce61a6bd8a03565c216ccd3
 //= require_tree .
 
 
