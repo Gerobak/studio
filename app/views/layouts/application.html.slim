@@ -30,11 +30,10 @@ body
             li.nav-a
               = link_to "Services", service_index_path
             li.nav-a
-              a href="#contact"
-                ' Portofolios
+              = link_to "Portofolios", portofolios_index_path
             li.nav-a
-              a href="#contact"
-                ' Jobs
+              = link_to "Jobs", job_index_path
+
             li.nav-a
               a href="#contact"
                 ' About Us
@@ -53,7 +52,7 @@ body
   br
   = yield
 
-div.col-md-12.text-center
+div.col-md-12.text-center.nopadding
   a#back-to-top.btn.btn-default.btn-circle.btn-lg.back-to-top href="#" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"
     i.fa.fa-arrow-up
 

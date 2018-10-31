@@ -155,8 +155,8 @@ $white: #fff;
 }
 
 .btn1{
-  width: 15%;
-  height: 10%;
+  width: 16%;
+  height: 5%;
   background-color: white;
   border: 1px $krem solid;
   color: $krem;
@@ -164,7 +164,7 @@ $white: #fff;
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
-  border-radius: 5px;
+  border-radius: 20%;
   transition: 0.5s;
 }
 
@@ -176,16 +176,14 @@ $white: #fff;
 }
 
 .btn2{
-  width: 15%;
-  height: 10%;
+  width: 16%;
+  height: 5%;
   background-color: white;
   border: 1px $purple solid;
   color: $purple;
   font-family: Nunito;
   padding: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-radius: 5px;
+  border-radius: 20%;
   transition: 0.5s;
 }
 
@@ -193,7 +191,7 @@ $white: #fff;
   color: #fff;
   background-color: #8568cc;
   transition: 0.5s;
-  border-radius: 5px;
+  border-radius: 20%;
 }
 
 .size{
