@@ -84,13 +84,15 @@ h2{
   text-align: center;
 }
 
-.img-testimonie{
-  height: 200px;
+.img-circle {
+    width: 75% !important;
+    background-color: white;
 }
 
 .img-footer{
   width: 100%;
   height: 300px;
+  opacity: 0.5;
 }
 
 .green-text{
@@ -103,24 +105,119 @@ h2{
 
 .line-blue{
   background-color: #6eb5ff;
-  width: 200px;
+  width: 70px;
   height: 2px;
 }
 
 .line-green{
   background-color: #1dbf1d;
-  width: 250px;
+  width: 90px;
   height: 2px;
 }
 
 .line-yellow{
   background-color: #ff9e15;
-  width: 250px;
+  width: 90px;
   height: 2px;
 }
 
 .line-red{
   background-color: #d9534f;
-  width: 150px;
+  width: 40px;
   height: 2px;
+}
+
+
+.tab-home {
+  overflow: hidden;
+  border: 1px solid #ff9e15;
+  background-color: #ff9e15;
+  color: white;
+
+  button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 75px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  button:hover {
+    color: #ffea92;
+    background-color: transparent;
+  }
+
+  button.active {
+    background-color: transparent;
+    border-bottom: white;
+    color: #ffea92;
+  }
+
+  .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+  }
+}
+
+.tab-blue-home {
+  overflow: hidden;
+  border: 1px solid #6eb5ff;
+  background-color: #6eb5ff;
+  color: white;
+
+    button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 75px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  button:hover {
+    color: #a6e3f1;
+    background-color: transparent;
+  }
+
+  button.active {
+    background-color: transparent;
+    border-bottom: white;
+    color: #a6e3f1;
+  }
+
+  .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+  }
+}
+.mid-home {
+  padding-left: 20%;
+}
+
+.carousel-caption {
+    position: relative;
+    right: 15%;
+    bottom: 250px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    margin-top: -30px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.bg-dark{
+  background-color: black;
+  height: 300px;
 }

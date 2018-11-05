@@ -22,9 +22,9 @@
 $(document).ready(function(){
      $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
-                $('#back-to-top').fadeIn();
+                $('#back-to-top').fadeIn(100);
             } else {
-                $('#back-to-top').fadeOut();
+                $('#back-to-top').fadeOut(100);
             }
         });
         // scroll body to 0px on click

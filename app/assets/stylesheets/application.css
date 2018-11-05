@@ -49,24 +49,31 @@
 }
 .btn-primary.outline {
     color: #428bca;
+    transition: 0.5s;
 }
 .btn-default.outline {
     color: white;
+    transition: 0.5s;
 }
 .btn-success.outline {
     color: #5cb85c;
+    transition: 0.5s;
 }
 .btn-info.outline {
     color: #5bc0de;
+    transition: 0.5s;
 }
 .btn-warning.outline {
     color: #f0ad4e;
+    transition: 0.5s;
 }
 .btn-danger.outline {
     color: #d9534f;
+    transition: 0.5s;
 }
 .btn-success.green {
     color: green;
+    transition: 0.5s;
 }
 .btn-primary.outline:hover,
 .btn-success.outline:hover,
@@ -74,6 +81,7 @@
 .btn-warning.outline:hover,
 .btn-danger.outline:hover {
     color: #fff;
+    transition: 0.5s;
 }
 
 .ft{
@@ -107,6 +115,7 @@
   color: #D030F0;
   background-color: #FFFFFF;
   border-color: #CE28F7;
+  transition: 0.5s;
 }
 
 .btn-purple:hover,
@@ -117,6 +126,7 @@
   color: white;
   background-color: #B44EC4;
   border-color: #CE28F7;
+  transition: 0.5s;
 }
 
 .back-to-top {
@@ -166,7 +176,6 @@
 /* Style the tab content */
 .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
+    padding: 45px 12px;
     border-top: none;
 }
