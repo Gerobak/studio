@@ -147,13 +147,21 @@
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #fff;
+    color: black;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
+.tab button.active:after {
+    background-color: #fff;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+
+    border-bottom: 25px solid $brown;
 }
+
 
 /* Style the tab content */
 .tabcontent {

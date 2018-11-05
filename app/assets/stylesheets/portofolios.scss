@@ -7,7 +7,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
+$darkbrown: #57463f;
 $blue: #42a5f4;
 $green: #66bb6a;
 $orange: #f6a628;
@@ -240,6 +240,8 @@ $white: #fff;
   border-radius: 0;
 }
 
-.mid{
+.midportofolio{
   padding-left: 27%;
+  background-color: $red;
+  color: $white;
 }
