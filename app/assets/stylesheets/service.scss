@@ -10,8 +10,24 @@ $purple: #7e57c2;
 $krem: #beb0a9;
 $red: #e35b4a;
 $white: #fff;
+$brown: #8b6f62;
+$darkbrown: #57463f;
 
+.bluetext{
+  color: $blue;
+}
 
+.greentext{
+  color: $green;
+}
+
+.orangetext{
+  color: $orange;
+}
+
+.redtext{
+  color: $red;
+}
 
 .imgupservice{
   background:linear-gradient(0deg,rgba(blue,0.3),rgba(black,0.3)),url(Background.jpg);
@@ -19,7 +35,7 @@ $white: #fff;
   width: 100%;
 }
 
-.head{
+.head2{
 
   h1{
     text-align: center;
@@ -31,7 +47,6 @@ $white: #fff;
   }
 
   h2{
-    text-align: center;
     font-family:Nunito;
     color:white;
     font-size:1vw;
@@ -200,6 +215,24 @@ $white: #fff;
   padding-top: 5%
 }
 
-.mid{
+.midservice{
   padding-left: 40%;
+  background-color: $brown;
+  color: $white;
 }
+
+.arrow-up{
+  width: 0px;
+  height: 0px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+
+  border-bottom: 25px solid $brown;
+}
+
+.dahan{
+  width: 8px;
+  height: 30px;
+  background-color: $darkbrown;
+}
+
