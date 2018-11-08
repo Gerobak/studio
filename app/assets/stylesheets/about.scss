@@ -1,0 +1,35 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.imgupabout{
+  background:linear-gradient(0deg,rgba(#428bca,0.7),rgba(black,0.5)),url(Backgoundabout.png);
+  background-size:cover;
+  width: 100%;
+}
+
+.about-up{
+  font-size:1vw;
+  font-family:Nunito;
+  color:white;
+  margin-top: -40px;
+  margin-bottom: 180px;
+  line-height: 2.1em;
+}
+
+.imgvideo{
+  background: url(CompanyProfile.png);
+  width: 100%;
+}
+
+.cmpy-prof{
+  height:auto;
+  width:100%;
+}
+
+.profile-btn{
+  margin-top: 50px;
+  border-radius: 60px;
+  margin-bottom: 60px;
+}

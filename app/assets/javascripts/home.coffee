@@ -4,7 +4,7 @@
 
 jQuery ->
 
-  $(document).ready ->
+  $(document).on 'turbolinks:load', ->
     $("#busproc").mouseenter ->
       $(".line-blue").animate({width: '200px'})
     $("#busproc").mouseleave ->
