@@ -35,9 +35,22 @@ body
     br
     h2 style="margin-top:-25px;text-align:left;margin-left:70px;font-size:20px" West Java - Indonesia
 
+  div#map
+
   center
     h1#green Get In Touch
     div.line.green
     h2.head2 Already have an idea of what are you going to do with us? Fill the
     p form below and our team will get back in touch with you within 24
     p hours with perfect suggestions and answers.
+
+  center
+    b
+      button.btn7 type="button" Talk Project
+      button.btn7 type="button" Apply Position
+      button.btn7 type="button" Say Hello
+
+== render 'form'
+
+= link_to 'New Contact', new_contact_path
+

@@ -67,5 +67,12 @@ gem "slim-rails"
 # styling
 gem 'bootstrap3-rails'
 gem 'bootstrap3-rails'
+gem 'bootstrap-datepicker-rails'
 gem 'jquery-rails', '~> 4.0'
 gem "font-awesome-rails"
+
+# gmaps
+gem 'gmaps4rails'
+
+# form
+gem 'simple_form'

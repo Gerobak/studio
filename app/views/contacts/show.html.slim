@@ -1,0 +1,39 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @contact.name
+p
+  strong Email:
+  = @contact.email
+p
+  strong Phone:
+  = @contact.phone
+p
+  strong Company name:
+  = @contact.company_name
+p
+  strong Website url:
+  = @contact.website_url
+p
+  strong Find us:
+  = @contact.find_us
+p
+  strong Tell us:
+  = @contact.tell_us
+p
+  strong Attachment:
+  = @contact.attachment
+p
+  strong Plan:
+  = @contact.plan
+p
+  strong Budget:
+  = @contact.budget
+p
+  strong Skills:
+  = @contact.skills
+
+=> link_to 'Edit', edit_contact_path(@contact)
+'|
+=< link_to 'Back', contacts_path

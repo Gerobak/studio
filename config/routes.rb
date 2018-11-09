@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
+  resources :contacts
   get 'service/index'
   get 'portofolios/index'
   get 'job/index'
-  get 'contact/index'
   get 'service/index'
 
   root 'home#index'
