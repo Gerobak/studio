@@ -1,0 +1,37 @@
+= simple_form_for(@contact) do |f|
+  = f.error_notification
+  = f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present?
+
+  .form-inputs
+    = f.input :name, placeholder: "Name"
+    = f.input :email, placeholder: "Email"
+    = f.input :phone, placeholder: "Phone"
+
+    = f.input :company_name, placeholder: "Company Name (Optional)"
+    = f.input :website_url, placeholder: "Website URL"
+    = f.input :find_us, placeholder: "Where You Find Us"
+    = f.input :tell_us, placeholder: "Tell us in short about your project"
+    = f.input :attachment, placeholder: "name"
+    = f.input :plan, placeholder: "Plan to Start (Optional)"
+    = f.input :budget, placeholder: "Budget"
+    = f.input :skills
+
+  .form-actions
+    = f.button :submit, value: "SUBMIT"
+
+
+  label.container One
+    input type="checkbox" checked="checked"
+    span.checkmark
+
+  label.container Two
+    input type="checkbox"
+    span.checkmark
+
+  label.container Three
+    input type="checkbox"
+    span.checkmark
+
+  label.container Four
+    input type="checkbox"
+    span.checkmark
