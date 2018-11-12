@@ -88,6 +88,7 @@
 .ft{
   padding-top: 40px;
   height: 100px;
+  margin-top: -23px;
 }
 
 .logo-nav{
@@ -181,6 +182,26 @@
     border-top: none;
 }
 
+<<<<<<< HEAD
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size:30px;
+  }
+
+  h2{
+    font-size:22px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  p{
+    font-size:12px;
+  }
+  }
+=======
 #map {
   display: block;
   width: 100%;
@@ -225,6 +246,7 @@
   border-right:16px solid transparent;
   border-bottom:16px solid #336699;
 }
+<<<<<<< HEAD
 
 .form-control {
   height: 45px;
@@ -233,3 +255,6 @@
 .size{
   height: 500px;
 }
+=======
+>>>>>>> ec5f15cdacc8f8a7635cc905d71e8b9c7f2bd798
+>>>>>>> 72315f17f361e9a0347cc566394ad21be59eeb07
