@@ -225,3 +225,11 @@
   border-right:16px solid transparent;
   border-bottom:16px solid #336699;
 }
+
+.form-control {
+  height: 45px;
+}
+
+.size{
+  height: 500px;
+}

@@ -2,36 +2,28 @@
   = f.error_notification
   = f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present?
 
-  .form-inputs
-    = f.input :name, placeholder: "Name"
-    = f.input :email, placeholder: "Email"
-    = f.input :phone, placeholder: "Phone"
+  div.row
+    .form-inputs
+    div.col-md-4.col-md-offset-1
+      = f.input :name, placeholder: "Name", label: false
+      = f.input :email, placeholder: "Email", label: false
+      = f.input :phone, placeholder: "Phone", label: false
+      = f.input :company_name, placeholder: "Company Name (Optional)", label: false
+      = f.input :website_url, placeholder: "Website URL", label: false
+      = f.input :find_us, placeholder: "Where You Find Us", label: false
 
-    = f.input :company_name, placeholder: "Company Name (Optional)"
-    = f.input :website_url, placeholder: "Website URL"
-    = f.input :find_us, placeholder: "Where You Find Us"
-    = f.input :tell_us, placeholder: "Tell us in short about your project"
-    = f.input :attachment, placeholder: "name"
-    = f.input :plan, placeholder: "Plan to Start (Optional)"
-    = f.input :budget, placeholder: "Budget"
-    = f.input :skills
+    div.col-md-6.col-md-offset-1
+      = f.input :plan, placeholder: "Plan to Start (Optional)", label: false
+      = f.input :budget, placeholder: "Budget", label: false
+      = f.input :skills, label: false
 
-  .form-actions
-    = f.button :submit, value: "SUBMIT"
+  div.row
+    div.col-md-11.col-md-offset-1
+      = f.input :tell_us, placeholder: "Tell us in short about your project", class: "size", label: false
 
-
-  label.container One
-    input type="checkbox" checked="checked"
-    span.checkmark
-
-  label.container Two
-    input type="checkbox"
-    span.checkmark
-
-  label.container Three
-    input type="checkbox"
-    span.checkmark
-
-  label.container Four
-    input type="checkbox"
-    span.checkmark
+  div.row
+    div.col-md-4.col-md-offset-1
+      = f.input :attachment, as: :file, placeholder: "Attachment", label: false
+    div.col-md-6.col-md-offset-1
+      .form-actions
+        = f.button :submit, value: "SUBMIT"
