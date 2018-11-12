@@ -87,6 +87,7 @@
 .ft{
   padding-top: 40px;
   height: 100px;
+  margin-top: -23px;
 }
 
 .logo-nav{
@@ -179,3 +180,22 @@
     padding: 45px 12px;
     border-top: none;
 }
+
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size:30px;
+  }
+
+  h2{
+    font-size:22px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  p{
+    font-size:12px;
+  }
+  }
