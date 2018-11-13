@@ -182,8 +182,6 @@
     border-top: none;
 }
 
-<<<<<<< HEAD
-
 @media screen and (max-width: 600px) {
   h1{
     font-size:30px;
@@ -201,7 +199,6 @@
     font-size:12px;
   }
   }
-=======
 #map {
   display: block;
   width: 100%;
@@ -246,7 +243,6 @@
   border-right:16px solid transparent;
   border-bottom:16px solid #336699;
 }
-<<<<<<< HEAD
 
 .form-control {
   height: 45px;
@@ -255,6 +251,3 @@
 .size{
   height: 500px;
 }
-=======
->>>>>>> ec5f15cdacc8f8a7635cc905d71e8b9c7f2bd798
->>>>>>> 72315f17f361e9a0347cc566394ad21be59eeb07

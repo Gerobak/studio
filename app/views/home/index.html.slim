@@ -1,18 +1,19 @@
 
 div.row
-  div.col-md-12.cont.bg.nopadding
+  div.col-md-12.bg.nopadding
     div.col-md-6.text-center.text-home
       h2 Ruby On Rails Development Company in Indonesia
       br
       br
-      p 41studio is Ruby On Rails Outsourcing Company in
-        Indonesia that leverages the cutting edge technology to
-        rapidly build web or mobile applications as core of our
-        services. We love to work in agile way for a whole host
-        of clients to improve their business efficiency and
-        provide a competitive advantage.
+      div.col-md-offset-2.col-md-8
+        p 41studio is Ruby On Rails Outsourcing Company in
+          Indonesia that leverages the cutting edge technology to
+          rapidly build web or mobile applications as core of our
+          services. We love to work in agile way for a whole host
+          of clients to improve their business efficiency and
+          provide a competitive advantage.
 
-      = link_to "OUR SERVICE",root_path,class: 'btn btn-default outline serv-btn'
+        = link_to "OUR SERVICE",root_path,class: 'btn btn-default outline serv-btn'
 
     div.col-md-6.text-center.nopadding
       div#myCarousel.carousel.slide data-ride="carousel"
@@ -22,11 +23,11 @@ div.row
           li data-target="#myCarousel" data-slide-to="2"
         div.carousel-inner
           div.item.active
-            = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+            = image_tag "technology.jpg",class: 'img-home img-responsive'
           div.item
-            = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+            = image_tag "technology.jpg",class: 'img-home img-responsive'
           div.item
-            = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+            = image_tag "technology.jpg",class: 'img-home img-responsive'
         / a.left.carousel-control" href="#myCarousel" data-slide="prev"
         /   span.glyphicon.glyphicon-chevron-left"
         /   span.sr-only" Previous

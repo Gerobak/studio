@@ -3,11 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .bg{
-    color: white;
-    background: linear-gradient(#42A5F5,  #252546); /* Standard syntax */
-    background: -webkit-linear-gradient(#42A5F5, #252546); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#42A5F5, #252546); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#42A5F5, #252546); /* For Firefox 3.6 to 15 */
+  color: white;
+  background:linear-gradient(0deg,rgba(#252546,0.9),rgba(#42A5F5,0.9));
+  background-size:cover;
+  width: 100%;
 
   .h2{
     margin-top: 150px;
@@ -223,7 +222,7 @@ h2{
 }
 
 .imgfoot-home{
-  background:linear-gradient(0deg,rgba(black,0.5),rgba(black,0.5)),url(screen-1839500.jpeg);
+  background:linear-gradient(0deg,rgba(black,0.5),rgba(black,0.5)),url(screen1.jpeg);
   background-size:cover;
   width: 100%;
 }
