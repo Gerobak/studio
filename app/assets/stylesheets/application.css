@@ -135,6 +135,24 @@
   transition: 0.5s;
 }
 
+.btn-brown {
+  color: #8b6f62;
+  background-color: #FFFFFF;
+  border-color: #8b6f62;
+  transition: 0.5s;
+}
+
+.btn-brown:hover,
+.btn-brown:focus,
+.btn-brown:active,
+.btn-brown.active,
+.open .dropdown-toggle.btn-brown {
+  color: white;
+  background-color: #8b6f62;
+  border-color: #8b6f62;
+  transition: 0.5s;
+}
+
 .back-to-top {
     cursor: pointer;
     bottom: 20px;
