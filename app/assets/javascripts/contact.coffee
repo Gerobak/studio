@@ -4,7 +4,15 @@
 
 jQuery ->
 
-  $(document).ready ->
+ ready = ->
+    if $('body').attr('data-loaded') == 'T'
+      return
+    # code goes here
+    $('body').attr('data-loaded','T')
+  $(document).ready(ready)
+  $(document).on('turbolinks:load', ready)
+
+  $(document).on 'turbolinks:load', ->
     $('#contact_plan').datepicker({
       dateFormat: 'yy-mm-dd'
     });

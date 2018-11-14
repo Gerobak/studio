@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$(document).ready ->
+$(document).on 'turbolinks:load', ->
     $("h1").mouseenter ->
         $({".red",".blue",".green",".orange","purple"}).css("width": "400px")
     $("h1").mouseleave ->
