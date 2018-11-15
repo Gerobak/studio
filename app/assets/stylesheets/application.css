@@ -182,7 +182,6 @@
     border-top: none;
 }
 
-<<<<<<< HEAD
 
 @media screen and (max-width: 600px) {
   h1{
@@ -201,7 +200,6 @@
     font-size:12px;
   }
   }
-=======
 #map {
   display: block;
   width: 100%;
@@ -246,15 +244,28 @@
   border-right:16px solid transparent;
   border-bottom:16px solid #336699;
 }
-<<<<<<< HEAD
 
 .form-control {
   height: 45px;
 }
 
-.size{
-  height: 500px;
+.btn-file {
+    position: relative;
+    overflow: hidden;
 }
-=======
->>>>>>> ec5f15cdacc8f8a7635cc905d71e8b9c7f2bd798
->>>>>>> 72315f17f361e9a0347cc566394ad21be59eeb07
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}

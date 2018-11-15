@@ -2,9 +2,11 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
+
 $(document).ready ->
   map = new GMaps(
     el: '#map'
+    zoom: 5
     lat: -6.868798
     lng: 107.545326)
 
