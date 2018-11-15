@@ -1,18 +1,19 @@
 
 div.row
-  div.col-md-12.cont.bg.nopadding
-    div.col-md-6.text-center.text-home
-      h2 Ruby On Rails Development Company in Indonesia
+  div.col-md-12.bg.nopadding
+    div.col-md-6.text-center.text-home.padding-home
+      h3 Ruby On Rails Development Company in Indonesia
       br
       br
-      p 41studio is Ruby On Rails Outsourcing Company in
-        Indonesia that leverages the cutting edge technology to
-        rapidly build web or mobile applications as core of our
-        services. We love to work in agile way for a whole host
-        of clients to improve their business efficiency and
-        provide a competitive advantage.
+      div.col-md-offset-2.col-md-8
+        p 41studio is Ruby On Rails Outsourcing Company in
+          Indonesia that leverages the cutting edge technology to
+          rapidly build web or mobile applications as core of our
+          services. We love to work in agile way for a whole host
+          of clients to improve their business efficiency and
+          provide a competitive advantage.
 
-      = link_to "OUR SERVICE",root_path,class: 'btn btn-default outline serv-btn'
+        = link_to "OUR SERVICE","#",class: 'btn btn-default outline serv-btn'
 
     div.col-md-6.text-center.nopadding
       div#myCarousel.carousel.slide data-ride="carousel"
@@ -22,11 +23,11 @@ div.row
           li data-target="#myCarousel" data-slide-to="2"
         div.carousel-inner
           div.item.active
-            = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+            = image_tag "technology.jpg",class: 'img-home img-responsive'
           div.item
-            = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+            = image_tag "technology.jpg",class: 'img-home img-responsive'
           div.item
-            = image_tag "technology-1283624.jpg",class: 'img-home img-responsive'
+            = image_tag "technology.jpg",class: 'img-home img-responsive'
         / a.left.carousel-control" href="#myCarousel" data-slide="prev"
         /   span.glyphicon.glyphicon-chevron-left"
         /   span.sr-only" Previous
@@ -48,7 +49,7 @@ div#web.tabcontent
         br
         br
         br
-        = link_to 'FIND OUT',root_path,class: 'btn btn-warning outline btn-web'
+        = link_to 'FIND OUT',"#",class: 'btn btn-warning outline btn-web'
 
 div#mobile.tabcontent
   div.row
@@ -59,7 +60,7 @@ div#mobile.tabcontent
       br
       br
       br
-      = link_to 'FIND OUT',root_path,class: 'btn btn-warning outline btn-web'
+      = link_to 'FIND OUT',"#",class: 'btn btn-warning outline btn-web'
 
 div#desktop.tabcontent
   div.row
@@ -70,7 +71,7 @@ div#desktop.tabcontent
       br
       br
       br
-      = link_to 'FIND OUT',root_path,class: 'btn btn-warning outline btn-web'
+      = link_to 'FIND OUT',"#",class: 'btn btn-warning outline btn-web'
 
 div#ui.tabcontent
   div.row
@@ -81,7 +82,7 @@ div#ui.tabcontent
       br
       br
       br
-      = link_to 'FIND OUT',root_path,class: 'btn btn-warning outline btn-web'
+      = link_to 'FIND OUT',"#",class: 'btn btn-warning outline btn-web'
 
 div.tab-home.mid-home
   button.tablinks onclick="listTab(event, 'web')" Web
@@ -108,7 +109,7 @@ div.col-md-12
     div.col-md-6.text-center
       h2.red-text Extended Team
       = image_tag "Extended Team.png",class: 'img-responsive'
-      = link_to 'LEARN MORE',root_path,class: 'btn btn-danger outline'
+      = link_to 'LEARN MORE',"#",class: 'btn btn-danger outline'
       br
       br
       br
@@ -124,7 +125,7 @@ div.col-md-12
         progress to produce great software products for our clients. In general your software
         development process would be like on the following flow :
     = image_tag "Development Process.png",class: 'img-responsive'
-    = link_to 'LEARN MORE',root_path,class: 'btn btn-purple'
+    = link_to 'LEARN MORE',"#",class: 'btn btn-purple'
 
     br
     br
@@ -213,25 +214,27 @@ div.col-md-12
         br
         small 3 Oct 2018
 
-.img.imgfoot-home
-  .container
-    .row
-      div.head.col-md-offset-1.col-md-4
-        h3 What We Have Done
-        br
-          p Listen. Explore. Deliver! As an agile web development with rails we solve
-            hard problems with our clients everyday and we love to create their great
-            ideas into the stunning functionally products. Find out more about our past
-            work to see how we had help give solutions to our clients like you.
-          br
-          = link_to "LEARN MORE",root_path,class: 'btn btn-default outline serv-btn'
-      div.head.col-md-offset-2.col-md-4
-        h3 Hire Ruby On Rails Expert Now!
-        br
-          p Already have remarkable ideas to be built? Let’s get connect! Do not let
-            other people preceded your ideas..
-          br
-          = link_to "LEARN MORE",root_path,class: 'btn btn-default outline serv-btn'
+div.col-md-12.nopadding.text-center
+  .img.imgfoot-home
+      .row
+        div.col-md-6.bg-color1
+          div.col-md-offset-1.col-md-10.ft-text
+            h3 What We Have Done
+            br
+              p Listen. Explore. Deliver! As an agile web development with rails we solve
+                hard problems with our clients everyday and we love to create their great
+                ideas into the stunning functionally products. Find out more about our past
+                work to see how we had help give solutions to our clients like you.
+              br
+              = link_to "LEARN MORE","#",class: 'btn btn-default outline serv-btn'
+        div.col-md-6.bg-color2
+          div.col-md-offset-1.col-md-10.ft-text
+            h3 Hire Ruby On Rails Expert Now!
+            br
+              p Already have remarkable ideas to be built? Let’s get connect! Do not let
+                other people preceded your ideas..
+              br
+              = link_to "LEARN MORE","#",class: 'btn btn-default outline serv-btn'
 
 / = image_tag "screen-1839500.jpg",class: 'img-home img-responsive'
 /   div.ideas ideas

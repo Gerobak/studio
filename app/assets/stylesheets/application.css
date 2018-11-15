@@ -85,6 +85,10 @@
     transition: 0.5s;
 }
 
+.btn-default.outline:hover {
+    background: #ffffff2b;
+  }
+
 .ft{
   padding-top: 40px;
   height: 100px;
@@ -128,6 +132,24 @@
   color: white;
   background-color: #B44EC4;
   border-color: #CE28F7;
+  transition: 0.5s;
+}
+
+.btn-brown {
+  color: #8b6f62;
+  background-color: #FFFFFF;
+  border-color: #8b6f62;
+  transition: 0.5s;
+}
+
+.btn-brown:hover,
+.btn-brown:focus,
+.btn-brown:active,
+.btn-brown.active,
+.open .dropdown-toggle.btn-brown {
+  color: white;
+  background-color: #8b6f62;
+  border-color: #8b6f62;
   transition: 0.5s;
 }
 
@@ -182,7 +204,10 @@
     border-top: none;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e1a6f0b7cc1777ee5a91df41f12fcc06680589cc
 @media screen and (max-width: 600px) {
   h1{
     font-size:30px;
@@ -253,6 +278,7 @@
     position: relative;
     overflow: hidden;
 }
+<<<<<<< HEAD
 
 .btn-file input[type=file] {
     position: absolute;
@@ -269,3 +295,5 @@
     cursor: inherit;
     display: block;
 }
+=======
+>>>>>>> e1a6f0b7cc1777ee5a91df41f12fcc06680589cc

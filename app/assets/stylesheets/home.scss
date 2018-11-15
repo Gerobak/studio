@@ -3,11 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .bg{
-    color: white;
-    background: linear-gradient(#42A5F5,  #252546); /* Standard syntax */
-    background: -webkit-linear-gradient(#42A5F5, #252546); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#42A5F5, #252546); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#42A5F5, #252546); /* For Firefox 3.6 to 15 */
+  color: white;
+  background:linear-gradient(0deg,rgba(#252546,0.9),rgba(#42A5F5,0.9));
+  background-size:cover;
+  width: 100%;
 
   .h2{
     margin-top: 150px;
@@ -22,11 +21,17 @@
 
   .img-home{
     opacity: 0.6;
+    height: 49% !important;
 
       .ideas{
         text-align: center;
       }
     }
+}
+
+.padding-home{
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .img-web{
@@ -169,6 +174,7 @@ h2{
   border: 1px solid #6eb5ff;
   background-color: #6eb5ff;
   color: white;
+  padding-left: 10%;
 
     button {
     background-color: inherit;
@@ -217,13 +223,25 @@ h2{
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
 
-.bg-dark{
-  background-color: black;
-  height: 300px;
-}
-
 .imgfoot-home{
-  background:linear-gradient(0deg,rgba(black,0.5),rgba(black,0.5)),url(screen-1839500.jpeg);
+  color: white;
+  background:linear-gradient(0deg,rgba(black,0.5),rgba(black,0.5)),url(screen1.jpeg);
   background-size:cover;
   width: 100%;
+
+  .bg-color1{
+    background:linear-gradient(0deg,rgba(black,0.2),rgba(black,0.2));
+    background-size:cover;
+    padding-bottom: 20px;
+  }
+  .bg-color2{
+    background:linear-gradient(0deg,rgba(#6eb5ff,0.2),rgba(white,0.2));
+    background-size:cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.ft-text{
+  padding: 50px;
 }
