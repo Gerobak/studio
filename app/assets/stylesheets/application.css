@@ -18,6 +18,9 @@
  *= require bootstrap-datepicker3
  */
 
+body{
+  font-family: helvetica;
+}
 
 @media (min-width: 768px){
   .navbar {
