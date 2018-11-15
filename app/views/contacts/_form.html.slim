@@ -19,11 +19,11 @@
 
   div.row
     div.col-md-11.col-md-offset-1
-      = f.input :tell_us, placeholder: "Tell us in short about your project", class: "size", label: false
+      = f.input :tell_us, placeholder: "Tell us in short about your project", label: false, class: "size"
 
   div.row
     div.col-md-4.col-md-offset-1
-      = f.input :attachment, as: :file, placeholder: "Attachment", label: false
+      = f.input :attachment, as: :file, placeholder: "Attachment", label: false, class: "btn btn-large btn-warning btn-file"
     div.col-md-6.col-md-offset-1
       .form-actions
         = f.button :submit, value: "SUBMIT"

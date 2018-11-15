@@ -2,7 +2,17 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
+<<<<<<< HEAD
+
+$(document).ready ->
+  map = new GMaps(
+    el: '#map'
+    zoom: 5
+    lat: -6.868798
+    lng: 107.545326)
+=======
 jQuery ->
+>>>>>>> e1a6f0b7cc1777ee5a91df41f12fcc06680589cc
 
  ready = ->
     if $('body').attr('data-loaded') == 'T'

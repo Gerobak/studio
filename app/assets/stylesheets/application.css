@@ -207,6 +207,10 @@ body{
     border-top: none;
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> e1a6f0b7cc1777ee5a91df41f12fcc06680589cc
 @media screen and (max-width: 600px) {
   h1{
     font-size:30px;
@@ -273,6 +277,26 @@ body{
   height: 45px;
 }
 
-.size{
-  height: 500px;
+.btn-file {
+    position: relative;
+    overflow: hidden;
 }
+<<<<<<< HEAD
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+=======
+>>>>>>> e1a6f0b7cc1777ee5a91df41f12fcc06680589cc
