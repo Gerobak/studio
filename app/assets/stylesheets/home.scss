@@ -7,6 +7,7 @@
   background:linear-gradient(0deg,rgba(#252546,0.9),rgba(#42A5F5,0.9));
   background-size:cover;
   width: 100%;
+  height: 450px;
 
   .h2{
     margin-top: 150px;
@@ -21,10 +22,12 @@
 
   .img-home{
     opacity: 0.6;
-    height: 49% !important;
+    height: 100% !important;
+    width: 100%;
 
       .ideas{
         text-align: center;
+        position: absolute;
       }
     }
 }
@@ -244,4 +247,55 @@ h2{
 
 .ft-text{
   padding: 50px;
+}
+
+
+.thumb {
+    display: block;
+  width: 100%;
+  margin: 0;
+}
+
+/* Style to article Author */
+.by-author {
+  font-style: italic;
+  line-height: 1.3;
+  color: #aab6aa;
+}
+
+
+.featured-article {
+  width: 482px;
+  height: 350px;
+  position: relative;
+  margin-bottom: 1em;
+
+
+ .block-title {
+    /* Position & Box Model */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    /* background */
+    background: rgba(0,0,0,0.7);
+    /* Width/Height */
+    padding: .5em;
+    width: 100%;
+    /* Text color */
+    color: #fff;
+  }
+
+  .block-title h2 {
+    margin: 0;
+  }
+}
+
+.main-list {
+  padding-left: .5em;
+
+ .media {
+    padding-bottom: 1.1em;
+    border-bottom: 1px solid #e8e8e8;
+  }
 }

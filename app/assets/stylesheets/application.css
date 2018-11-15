@@ -207,10 +207,6 @@ body{
     border-top: none;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e1a6f0b7cc1777ee5a91df41f12fcc06680589cc
 @media screen and (max-width: 600px) {
   h1{
     font-size:30px;
@@ -281,7 +277,6 @@ body{
     position: relative;
     overflow: hidden;
 }
-<<<<<<< HEAD
 
 .btn-file input[type=file] {
     position: absolute;
@@ -298,5 +293,3 @@ body{
     cursor: inherit;
     display: block;
 }
-=======
->>>>>>> e1a6f0b7cc1777ee5a91df41f12fcc06680589cc

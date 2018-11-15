@@ -24,10 +24,13 @@ div.row
         div.carousel-inner
           div.item.active
             = image_tag "technology.jpg",class: 'img-home img-responsive'
+            div.ideas IDEAS
           div.item
             = image_tag "technology.jpg",class: 'img-home img-responsive'
+            div.ideas IDEAS
           div.item
             = image_tag "technology.jpg",class: 'img-home img-responsive'
+            div.ideas IDEAS
         / a.left.carousel-control" href="#myCarousel" data-slide="prev"
         /   span.glyphicon.glyphicon-chevron-left"
         /   span.sr-only" Previous
@@ -173,46 +176,41 @@ div.col-md-12
     center
       div.line-red
     br
-  div.col-md-offset-2.col-md-4
-    li
-      div.col-md-6
-        = image_tag "Rails Grey.png",class: 'img-home img-responsive'
-      div.col-md-6
-        h5 CommunicAsia 2018
-        small Admin
-        br
-        br
-        small 3 Oct 2018
-    li
-      div.col-md-6
-        = image_tag "Rails Grey.png",class: 'img-home img-responsive'
-      div.col-md-6
-        h5 CommunicAsia 2018
-        small Admin
-        br
-        br
-        small 3 Oct 2018
 
 
-  div.col-md-offset-1.col-md-4
-    li
-      div.col-md-6
-        = image_tag "Rails Grey.png",class: 'img-home img-responsive'
-      div.col-md-6
-        h5 CommunicAsia 2018
-        small Admin
-        br
-        br
-        small 3 Oct 2018
-    li
-      div.col-md-6
-        = image_tag "Rails Grey.png",class: 'img-home img-responsive'
-      div.col-md-6
-        h5 CommunicAsia 2018
-        small Admin
-        br
-        br
-        small 3 Oct 2018
+div.col-md-12
+  div.col-md-6
+    .col-md-12.col-lg-12
+      ul.media-list.main-list
+        - for i in 0..2
+          li.media
+            a.pull-left[href="#"]
+              = image_tag "blank.jpeg",class: 'img-home img-responsive media-object'
+            .media-body
+              h4.media-heading
+                | CommunicAsia 2018
+              p.by-author
+                | Admin
+              br
+              br
+              small 3 Oct 2018
+
+  div.col-md-6
+    .col-md-12.col-lg-12
+      ul.media-list.main-list
+        - for i in 0..2
+          li.media
+            a.pull-left[href="#"]
+              = image_tag "blank.jpeg",class: 'img-home img-responsive media-object'
+            .media-body
+              h4.media-heading
+                | CommunicAsia 2018
+              p.by-author
+                | Admin
+              br
+              br
+              small 3 Oct 2018
+
 
 div.col-md-12.nopadding.text-center
   .img.imgfoot-home
